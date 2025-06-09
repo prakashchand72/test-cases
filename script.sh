@@ -95,7 +95,7 @@ run_httpx() {
 # Function: JSHunter on GoSpider JS URLs
 run_jshunter() {
   echo "[*] Running JSHunter on discovered JavaScript files..."
-  cat $OUTPUT_DIR/gospider/urls.txt | grep "\.js" | jshunter > $OUTPUT_DIR/jushunter/jshunter.txt
+  cat $OUTPUT_DIR/gospider/urls.txt | grep "\.js" | jshunter > $OUTPUT_DIR/jshunter/jshunter.txt
 }
 
 # ==========================
